@@ -11,7 +11,7 @@
 <table>
   <tr>
     <td align="center">
-      <img src="media/tbd"
+      <img src="media/demo_duet.gif"
            alt="tbd"
            width="400">
     </td>
