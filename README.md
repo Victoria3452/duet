@@ -8,32 +8,8 @@
 ---
 
 ## Demo
-<table>
-  <tr>
-    <td align="center">
-      <img src="media/demo_duet.gif"
-           alt="tbd"
-           width="400">
-    </td>
-    <td align="center">
-      <img src="media/tbd"
-           alt="tbd"
-           width="400">
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="media/tbd"
-           alt="tbd"
-           width="400">
-    </td>
-    <td align="center">
-      <img src="media/tbd"
-           alt="tbd"
-           width="400">
-    </td>
-  </tr>
-</table>
+
+![Duet Demo](media/demo_duet.gif)
 
 [Video of full game](tbd)
 
