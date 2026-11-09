@@ -9,7 +9,9 @@
 
 ## Demo
 
-![Duet Demo](media/demo_duet.gif)
+<p>
+  <img src="media/demo_duet.gif" alt="duet demo" width="100">
+</p>
 
 [Video of full game](tbd)
 
