@@ -10,7 +10,7 @@
 ## Demo
 
 <p>
-  <img src="media/demo_duet.gif" alt="duet demo" width="100">
+  <img src="media/demo_duet.gif" alt="duet demo" width="400">
 </p>
 
 [Video of full game](tbd)
