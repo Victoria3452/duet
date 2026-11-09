@@ -40,15 +40,18 @@
 - Processing IDE
 
 ### Running the Project
-1) **Run the Processing sketch on one computer** Make sure it is configured to use the correct serial port and baud rate (115200).
-2) **Configure the Arduino sketches**
-Open the ESP32 sketch in Arduino IDE. Make sure both boards use the same TEAM_ID and have different PLAYER_ID values:
+1) **Configure the Arduino sketches**
+Open duet.ino in Arduino IDE. Make sure both boards use the same TEAM_ID and have different PLAYER_ID values:
 Player 1: PLAYER_ID 0 (Piano)
 Player 2: PLAYER_ID 1 (Vibraphone)
-Player 1 should be connected to the computer running Processing.
-3) **Upload Arduino sketch duet.ino to 2 LILYGO TTGO T-Displays**
-4) **Follow the instructions on the board displays to start the game**
-Each player uses the two physical buttons on their ESP32 to hit the falling notes in their respective lanes. Work together to achieve the highest possible team accuracy. Press the spacebar on the host computer to start another round.
-
-Note: Both ESP32 devices communicate wirelessly using ESP-NOW, so only the Piano (Player 1 / ID 0) board needs to be connected to the computer by USB during gameplay. The second board communicates wirelessly with the host board.
+2) **Upload duet.ino to both LILYGO TTGO T-Display boards**
+Player 1 should be connected to the computer running Processing during gameplay.
+3) **Configure the Processing sketch**
+Open the Processing project and update PORT_NAME to match the serial port of Player 1's ESP32. Make sure the baud rate is set to 115200.
+4) **Prepare the MIDI file**
+Make sure twinkle_twinkle.mid is located in the Processing project's data folder.
+5) **Run the Processing sketch**
+Launch the Processing application on the host computer. Both ESP32 boards should appear online once they establish communication.
+6) **Play the game**
+Press the spacebar on the host computer to begin. Each player uses the two physical buttons on their ESP32 to hit the falling notes in their respective lanes. Work together to achieve the highest possible team accuracy. Press the spacebar on the host computer to start another round.
 
