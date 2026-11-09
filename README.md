@@ -1,7 +1,10 @@
 # Duet
 
 ## About
-**Duet** description.
+**Duet** is a cooperative two-player rhythm game inspired by Piano Tiles. Players take on different musical roles, Piano and Vibraphone, and work together to play a song by pressing buttons as notes fall across their respective lanes. Each player's accuracy contributes to a shared team score and collective musical performance.
+
+Built with Processing and two LILYGO TTGO T-Display ESP32 boards, Duet combines physical button controls, visual feedback, and MIDI playback. Processing manages the game's musical timeline, note generation, and scoring, while ESP-NOW wireless communication connects the two ESP32 player interfaces, allowing their inputs and display updates to be exchanged wirelessly.
+
 
 **[Blog Post](tbd)**
 
