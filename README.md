@@ -44,7 +44,7 @@
 Open duet.ino in Arduino IDE. Make sure both boards use the same TEAM_ID and have different PLAYER_ID values:
 Player 1: PLAYER_ID 0 (Piano)
 Player 2: PLAYER_ID 1 (Vibraphone)
-2) **Upload duet.ino to both LILYGO TTGO T-Display boards**
+2) **Upload DuetBoard.ino to both LILYGO TTGO T-Display boards**
 Player 1 should be connected to the computer running Processing during gameplay.
 3) **Configure the Processing sketch**
 Open the Processing project and update PORT_NAME to match the serial port of Player 1's ESP32. Make sure the baud rate is set to 115200.
