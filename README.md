@@ -8,6 +8,7 @@ Duet is built with Processing and two LILYGO TTGO T-Display ESP32 boards, visual
 **Created By** **[Victoria Gonzalez](https://github.com/Victoria3452)** and **[Julia Wang](https://github.com/juliaywang)**
 
 **[Victoria's Blog Post](https://victoria3452.github.io/duet.html)**
+
 **[Julia's Blog Post](tbd)**
 
 ---
