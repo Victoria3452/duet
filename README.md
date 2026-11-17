@@ -5,11 +5,10 @@
 
 Duet is built with Processing and two LILYGO TTGO T-Display ESP32 boards, visual feedback, and MIDI playback. Processing helps us manage the game's musical timeline, note generation, and scoring, while ESP-NOW wireless communication connects the two ESP32 player interfaces, allowing their inputs and display updates to be exchanged wirelessly.
 
-
-**[Blog Post](tbd)**
-
 **Created By** **[Victoria Gonzalez](https://github.com/Victoria3452)** and **[Julia Wang](https://github.com/juliaywang)**
 
+**[Victoria's Blog Post](https://victoria3452.github.io/duet.html)**
+**[Julia's Blog Post](tbd)**
 ---
 
 ## Demo
